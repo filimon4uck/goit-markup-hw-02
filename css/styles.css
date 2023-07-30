@@ -96,8 +96,6 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  width: 169px;
-  height: 56px;
   background: var(--iris);
   color: var(--white);
   cursor: pointer;
@@ -201,8 +199,6 @@ body {
 
 /* filter buttons */
 .all-filter-button {
-  width: 69px;
-  height: 48px;
   color: var(--iris);
   text-align: center;
   font-weight: 500;
@@ -218,8 +214,6 @@ body {
 }
 
 .all-sites-filter-button {
-  width: 116px;
-  height: 48px;
   color: var(--iris);
   text-align: center;
   font-weight: 500;
@@ -235,8 +229,6 @@ body {
 }
 
 .app-filter-button {
-  width: 78px;
-  height: 48px;
   color: var(--iris);
   text-align: center;
   font-weight: 500;
@@ -252,8 +244,6 @@ body {
 }
 
 .design-filter-button {
-  width: 101px;
-  height: 48px;
   color: var(--iris);
   text-align: center;
   font-weight: 500;
@@ -269,8 +259,6 @@ body {
 }
 
 .marketing-filter-button {
-  width: 126px;
-  height: 48px;
   color: var(--iris);
   text-align: center;
   font-weight: 500;
