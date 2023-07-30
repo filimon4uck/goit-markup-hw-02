@@ -203,7 +203,8 @@ body {
 
 /* filter buttons */
 
-.button-text-background {
+.filter-button {
+  cursor: pointer;
   font-family: Roboto, sans-serif;
   color: var(--iris);
   text-align: center;
@@ -212,47 +213,8 @@ body {
   letter-spacing: 0.04em;
   background-color: var(--cloud);
 }
-.all-filter-button {
-  cursor: pointer;
-}
-.all-filter-button:hover,
-.all-filter-button:focus {
-  color: var(--white);
-  background-color: var(--ocean);
-}
-
-.all-sites-filter-button {
-  cursor: pointer;
-}
-.all-sites-filter-button:hover,
-.all-sites-filter-button:focus {
-  color: var(--white);
-  background-color: var(--ocean);
-}
-
-.app-filter-button {
-  cursor: pointer;
-}
-.app-filter-button:hover,
-.app-filter-button:focus {
-  color: var(--white);
-  background-color: var(--ocean);
-}
-
-.design-filter-button {
-  cursor: pointer;
-}
-.design-filter-button:hover,
-.design-filter-button:focus {
-  color: var(--white);
-  background-color: var(--ocean);
-}
-
-.marketing-filter-button {
-  cursor: pointer;
-}
-.marketing-filter-button:hover,
-.marketing-filter-button:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: var(--white);
   background-color: var(--ocean);
 }
