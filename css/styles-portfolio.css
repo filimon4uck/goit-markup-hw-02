@@ -24,15 +24,11 @@ button {
   cursor: pointer;
 }
 
-/* studio.html */
-
 body {
   font-family: Roboto, sans-serif;
   color: var(--slate);
-  background-color: var(--white);
   font-size: 16px;
   font-style: normal;
-  letter-spacing: 0.02em;
 }
 
 .section-title {
@@ -80,94 +76,115 @@ body {
   color: var(--ocean);
 }
 
-.hero {
-  background-color: var(--navy-blue);
+/* portfolio page */
+
+.portfolio-page-title {
+  visibility: hidden;
 }
-.hero-title {
-  font-size: 56px;
-  font-weight: 700;
-  line-height: 1.07;
+
+/* filter buttons */
+.all-filter-button {
+  width: 69px;
+  height: 48px;
+  color: var(--iris);
   text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--white);
-}
-.hero-button {
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  width: 169px;
-  height: 56px;
-  background: var(--iris);
-  color: var(--white);
+  background-color: var(--cloud);
   cursor: pointer;
 }
-.hero-button:hover,
-.hero-button:focus {
-  background: var(--ocean);
+.all-filter-button:hover,
+.all-filter-button:focus {
   color: var(--white);
+  background-color: var(--ocean);
 }
 
-.advantages-section-title {
-  visibility: hidden;
-}
-.advantages-list-item-title {
-  color: var(--grey);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-.advantages-list-item-text {
-  color: var(--slate);
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-
-.we-do-section-title {
-  color: var(--grey);
+.all-sites-filter-button {
+  width: 116px;
+  height: 48px;
+  color: var(--iris);
   text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
-.our-team {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   background-color: var(--cloud);
+  cursor: pointer;
 }
-.our-team-section-title {
-  color: var(--grey);
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  line-height: 1.11;
-  letter-spacing: 0.02empx;
-  text-transform: capitalize;
+.all-sites-filter-button:hover,
+.all-sites-filter-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
 }
 
-.our-team-list-item {
-  background-color: white;
+.app-filter-button {
+  width: 78px;
+  height: 48px;
+  color: var(--iris);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+.app-filter-button:hover,
+.app-filter-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
 }
 
-.our-team-list-item-title {
-  color: var(--grey);
+.design-filter-button {
+  width: 101px;
+  height: 48px;
+  color: var(--iris);
   text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+.design-filter-button:hover,
+.design-filter-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.marketing-filter-button {
+  width: 126px;
+  height: 48px;
+  color: var(--iris);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+.marketing-filter-button:hover,
+.marketing-filter-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.gallery-list-item-title {
+  color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
-.our-team-list-item-text {
+
+.gallery-list-item-text {
   color: var(--slate);
-  text-align: center;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.gallery-link {
+  background: var(--white);
 }
 
 .footer {
@@ -181,14 +198,4 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
-}
-
-.second-part-white-logo {
-  color: var(--cloud);
-}
-.footer-text {
-  color: var(--cloud);
-  font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
