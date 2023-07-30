@@ -31,11 +31,6 @@ body {
   font-style: normal;
 }
 
-.section-title {
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 2;
-}
 /* header */
 .logotype-black {
   font-size: 18px;
@@ -77,6 +72,11 @@ body {
 }
 
 /* portfolio page */
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2;
+}
 
 .portfolio-page-title {
   visibility: hidden;
@@ -198,6 +198,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--iris);
+}
+.second-part-white-logo {
+  color: var(--cloud);
 }
 .footer-text {
   color: var(--cloud);
