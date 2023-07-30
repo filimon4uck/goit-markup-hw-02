@@ -204,6 +204,7 @@ body {
 /* filter buttons */
 
 .filter-button {
+  font-size: 16;
   cursor: pointer;
   font-family: Roboto, sans-serif;
   color: var(--iris);
@@ -220,7 +221,7 @@ body {
 }
 
 .gallery-list-item-title {
-  color: var(--navyblue);
+  color: var(--navy-blue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
