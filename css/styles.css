@@ -133,6 +133,7 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .our-team {
@@ -201,13 +202,17 @@ body {
 }
 
 /* filter buttons */
-.all-filter-button {
+
+.button-text-background {
+  font-family: Roboto, sans-serif;
   color: var(--iris);
   text-align: center;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--cloud);
+}
+.all-filter-button {
   cursor: pointer;
 }
 .all-filter-button:hover,
@@ -217,12 +222,6 @@ body {
 }
 
 .all-sites-filter-button {
-  color: var(--iris);
-  text-align: center;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: var(--cloud);
   cursor: pointer;
 }
 .all-sites-filter-button:hover,
@@ -232,12 +231,6 @@ body {
 }
 
 .app-filter-button {
-  color: var(--iris);
-  text-align: center;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: var(--cloud);
   cursor: pointer;
 }
 .app-filter-button:hover,
@@ -247,12 +240,6 @@ body {
 }
 
 .design-filter-button {
-  color: var(--iris);
-  text-align: center;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: var(--cloud);
   cursor: pointer;
 }
 .design-filter-button:hover,
@@ -262,12 +249,6 @@ body {
 }
 
 .marketing-filter-button {
-  color: var(--iris);
-  text-align: center;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  background-color: var(--cloud);
   cursor: pointer;
 }
 .marketing-filter-button:hover,
