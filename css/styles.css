@@ -192,3 +192,115 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
+/* portfolio page */
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 2;
+}
+
+.portfolio-page-title {
+  visibility: hidden;
+}
+
+/* filter buttons */
+.all-filter-button {
+  width: 69px;
+  height: 48px;
+  color: var(--iris);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+.all-filter-button:hover,
+.all-filter-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.all-sites-filter-button {
+  width: 116px;
+  height: 48px;
+  color: var(--iris);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+.all-sites-filter-button:hover,
+.all-sites-filter-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.app-filter-button {
+  width: 78px;
+  height: 48px;
+  color: var(--iris);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+.app-filter-button:hover,
+.app-filter-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.design-filter-button {
+  width: 101px;
+  height: 48px;
+  color: var(--iris);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+.design-filter-button:hover,
+.design-filter-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.marketing-filter-button {
+  width: 126px;
+  height: 48px;
+  color: var(--iris);
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: var(--cloud);
+  cursor: pointer;
+}
+.marketing-filter-button:hover,
+.marketing-filter-button:focus {
+  color: var(--white);
+  background-color: var(--ocean);
+}
+
+.gallery-list-item-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.gallery-list-item-text {
+  color: var(--slate);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}

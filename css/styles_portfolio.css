@@ -183,9 +183,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-.gallery-link {
-  background: var(--white);
-}
 
 .footer {
   background-color: var(--navy-blue);
