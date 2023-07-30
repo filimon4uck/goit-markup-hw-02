@@ -89,6 +89,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white);
+  text-align: center;
 }
 .hero-button {
   font-family: Roboto, sans-serif;
@@ -141,8 +142,9 @@ body {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.02empx;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
 }
 
 .our-team-list-item {
