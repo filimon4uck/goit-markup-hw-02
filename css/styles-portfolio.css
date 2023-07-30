@@ -199,3 +199,9 @@ body {
   text-transform: uppercase;
   color: var(--iris);
 }
+.footer-text {
+  color: var(--cloud);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
