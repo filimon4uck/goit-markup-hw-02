@@ -32,13 +32,11 @@ body {
   background-color: var(--white);
   color: var(--slate);
   font-size: 16px;
-  font-style: normal;
   letter-spacing: 0.02em;
 }
 
 .section-title {
   font-size: 36px;
-  font-weight: 700;
   letter-spacing: 2;
 }
 /* header */
@@ -70,7 +68,6 @@ body {
   font-style: normal;
 }
 .contact-list-item {
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: normal;
@@ -86,7 +83,6 @@ body {
 }
 .hero-title {
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--white);
@@ -121,7 +117,6 @@ body {
 }
 .advantages-list-item-text {
   color: var(--slate);
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -129,7 +124,6 @@ body {
 .we-do-section-title {
   color: var(--grey);
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -142,7 +136,6 @@ body {
 .our-team-section-title {
   color: var(--grey);
   font-size: 36px;
-  font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -162,7 +155,6 @@ body {
 }
 .our-team-list-item-text {
   color: var(--slate);
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -185,7 +177,6 @@ body {
 }
 .footer-text {
   color: var(--cloud);
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
@@ -230,7 +221,6 @@ body {
 
 .gallery-list-item-text {
   color: var(--slate);
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
